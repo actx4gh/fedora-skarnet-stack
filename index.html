@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>fedora-skarnet-stack artifacts</title>
+  </head>
+  <body>
+    <h1>fedora-skarnet-stack artifacts</h1>
+    <p>This GitHub repository is an artifact-only host for the public DNF repository. The source tree is not hosted here.</p>
+    <p>Source repository: <a href="https://latebrum.com/git/actx/fedora-skarnet-stack/">https://latebrum.com/git/actx/fedora-skarnet-stack/</a></p>
+    <p>Source release tag: <code>v0.1.3</code></p>
+    
+    <p>DNF repository root: <a href="./repo/">repo/</a></p>
+    <p>Repository file: <a href="./skarnet-fedora.repo">skarnet-fedora.repo</a></p>
+    <p>Checksums: <a href="./SHA256SUMS">SHA256SUMS</a></p>
+    <pre>sudo curl -fsSLo /etc/yum.repos.d/skarnet-fedora.repo https://actx4gh.github.io/fedora-skarnet-stack/skarnet-fedora.repo
+sudo dnf install skalibs execline s6 s6-rc s6-linux-init s6-frontend</pre>
+  </body>
+</html>

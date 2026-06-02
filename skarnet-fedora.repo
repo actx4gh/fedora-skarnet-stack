@@ -1,0 +1,6 @@
+[skarnet-fedora]
+name=skarnet-fedora
+baseurl=https://actx4gh.github.io/fedora-skarnet-stack/repo
+enabled=1
+gpgcheck=0
+repo_gpgcheck=0
